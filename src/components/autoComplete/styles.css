@@ -1,0 +1,32 @@
+.input-container {
+  width: 100%;
+  position: relative;
+}
+
+.auto-complete-box {
+  background-color: #eee;
+  margin: 0;
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  color: #555;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.auto-complete-box ul {
+  list-style: none;
+  text-align: left;
+}
+
+.auto-complete-box ul > li {
+  cursor: pointer;
+}
+
+.auto-complete-box ul > li:hover {
+  color: #000;
+}
+
+.auto-complete-box p.error {
+  color: red;
+}
